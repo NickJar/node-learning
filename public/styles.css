@@ -64,9 +64,27 @@ h3 {
 }
 
 /* index styles */
-
+.single {
+  display: block;
+  margin: 40px 0;
+  padding-left: 30px;
+  border-left: 6px solid crimson;
+}
+.single h3:hover {
+  color: crimson;
+}
 /* details styles */
-
+.details {
+  position: relative;
+}
+.delete {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.delete:hover {
+  color: crimson;
+}
 /* create styles */
 .create-blog form {
   max-width: 400px;
