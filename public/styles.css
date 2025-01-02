@@ -83,7 +83,7 @@ h3 {
   right: 0;
 }
 .delete:hover {
-  color: crimson;
+  scale: 1.2;
 }
 /* create styles */
 .create-blog form {
